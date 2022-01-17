@@ -13,9 +13,9 @@ export default App = () => {
   };
   const oddordouble = randomcount => {
     if (randomcount % 2 == 0) {
-      return 'Double';
+      return 'Double number';
     } else {
-      return 'Odd';
+      return 'Odd number';
     }
   };
 
