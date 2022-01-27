@@ -3,6 +3,15 @@ import {Text, View} from 'react-native';
 import styles from './style';
 
 export default App = () => {
+  console.log('***********************NEW************************');
+const a = "elmin";
+const b = a.split("").reverse().join("");
+console.log(b);
+
+
+console.log('***********************NEW************************');
+
+
   let randomcount = Math.floor(Math.random() * 10);
   const factorial = value => {
     let f = 1;
@@ -23,17 +32,17 @@ export default App = () => {
   for (let index = 0; index < 10; index++) {
     numList.push(Math.floor(Math.random() * 100));
   } 
-  console.log(numList);
+ // console.log(numList);
 
   for (let i = 0; i < numList.length; i++) {
-    console.log(numList[i]);
+   // console.log(numList[i]);
   }
-  console.log('***********************ForEach************************');
+  //console.log('***********************ForEach************************');
   numList.forEach(element => {
-    console.log(element);
+   // console.log(element);
   });
 
-  console.log('********************MAP*****************************');
+//  console.log('********************MAP*****************************');
 
   return (
     <View style={styles.container}>
